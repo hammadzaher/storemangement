@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333333; /* Primary text color */
+
+}
+.container {
+    width: 500px;
+    /* height: 100vh;    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f); /* Peachy gradient */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 12px;
+    padding: 25px;
+}
+h1 {
+    color: #007BFF;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight:700 ;
+    letter-spacing: 2px;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.one input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: -2px 2px 8px #000;
+    font-size: 20px;
+}
+.one select {
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px #000;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.one button {
+        background-color: transparent; /* Transparent background */
+        color: #007BFF; /* Blue text */
+        padding: 12px 24px;
+        border: 2px solid #007BFF; /* Blue border */
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+}
+.one button:hover {
+    background-color: #007BFF; /* Blue background on hover */
+    color: white; /* White text on hover */
+}
+
+#totalSummary{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: tahoma;
+}
+.expense {
+    border: 2px solid red;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.income{
+    border: 2px solid green;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}

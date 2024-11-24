@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE MANAGEMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Buy and Sell Tracker :</h1>
+        <div class="one">
+            <input type="text" placeholder="Enter item name" id="item">
+            <input type="number" placeholder="Enter amount" id="amount">
+            <select id="transactionType">
+                <option value="sell">Sell</option>
+                <option value="buy">Buy</option>
+            </select>
+            <button onclick="addTransaction()">Click me!!</button>
+            <h1>Total Transactions :</h1>
+            <span id="transactionLog"></span>
+            <button onclick="showTotal()">Show Total Transaction</button>
+            <div id="totalSummary"></div>
+            <!-- <div id="totalSell"><span>00</span></div>
+            <div id="totalBuy"><span>00</span></div>
+            <div id="totalProfit"><span>00</span></div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
